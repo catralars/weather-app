@@ -1,0 +1,79 @@
+/* Google font*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+/* ------ */
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 50px;
+  border-radius: 30px;
+  background: radial-gradient(
+    circle,
+    rgba(217, 133, 170, 1) 39%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.search-engine {
+  position: relative;
+  right: -195px;
+}
+
+.search-btn {
+  background-color: #00afb9;
+  padding: 3px 12px;
+  border-radius: 5px;
+}
+
+.search-btn:hover {
+  background-color: #fff;
+}
+
+.current-btn {
+  background-color: #00afb9;
+  padding: 3px 12px;
+  border-radius: 5px;
+}
+
+.current-btn:hover {
+  background-color: #fff;
+}
+
+.current-status {
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+.weather-data {
+  text-align: center;
+}
+
+.current-icon {
+  font-size: 80px;
+  opacity: 0.7;
+}
+
+.weather-icon {
+  font-size: 25px;
+}
+
+.weather-temperature {
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
